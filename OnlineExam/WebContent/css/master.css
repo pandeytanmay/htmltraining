@@ -1,0 +1,93 @@
+div.container {
+    width: 100%;
+
+}
+header, footer {
+    padding: 1em;
+    color: #fafafa;
+    background-color: black;
+    clear: left;
+    text-align:center;
+    margin-top: 0 fixed;
+    height: 9vh;
+}
+.header-cont { width:100%; position:fixed; top:0px; }
+.navbarhorizontalul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0 0 0 10%;
+    overflow: hidden;
+    background-color: #333;
+    height: 7vh;
+    color: white;
+}
+.navbarli{
+    float: left;
+}
+.navbarli .navbara{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px 14px 50px;
+    text-decoration: none;
+}
+.navbarverticalul{
+    list-style-type: none;
+    margin-top: 1vh ;
+    padding: 0;
+    width: 200px;
+    background-color: #c1c1c1;
+    overflow:hidden;
+    height: 74vh;
+    float: left;
+}
+.navbarliv .navbarav{
+    display: block;
+    color: #000;
+    text-align: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.navbarli .navbara:hover {
+    background-color: #000;
+}
+.navbarliv .navbarav:hover {
+    background-color: #555;
+    color: white;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+.content{
+  position: relative;
+  float: left;
+  margin-left: 1vw;
+  margin-top: 1vh;
+  width: 65vw;
+  height: 74vh;
+  /*border: 0px none transparent;*/
+  border: 3px solid;
+}
+table{
+    width: 20vw;
+    text-align: left;
+    align-items: center;
+
+}
+.divcenter{
+    text-align: left;;
+    margin: 0px auto;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+}
